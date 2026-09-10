@@ -1,0 +1,5 @@
+{
+  "_comment": "asOfDate is the reference date the engine uses for every date-based check (expiry, renewal windows). It is fixed so the demo gives the same answer every time it is run. Set it to null to use today's real date instead.",
+  "asOfDate": "2026-08-22",
+  "productName": "Compass IFSC"
+}

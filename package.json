@@ -1,0 +1,40 @@
+{
+  "name": "compass-ifsc",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Compass IFSC \u2014 employee compliance layer for GIFT IFSC entities.",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "bundle-text": "node scripts/bundle-text.mjs",
+    "predev": "npm run bundle-text",
+    "dev": "next dev",
+    "prebuild": "npm run bundle-text",
+    "build": "next build",
+    "start": "next start",
+    "reset": "node scripts/reset-demo.mjs",
+    "verify": "tsx scripts/verify-engine.ts",
+    "check-ai": "tsx scripts/check-bedrock.ts",
+    "check-storage": "tsx scripts/check-storage.ts",
+    "seed": "node scripts/generate-seed.mjs",
+    "synth": "tsx scripts/synth-employees.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/bedrock-sdk": "^0.33.1",
+    "@aws-sdk/client-s3": "^3.1116.0",
+    "next": "15.5.23",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

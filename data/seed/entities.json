@@ -1,0 +1,47 @@
+[
+  {
+    "id": "acme-fm",
+    "name": "Acme Fund Management Pvt. Ltd.",
+    "entityType": "Fund Management Entity",
+    "activities": [
+      "Managing Retail Schemes",
+      "Managing Venture Capital Schemes",
+      "Portfolio Management Services"
+    ],
+    "licenses": [
+      "Registered FME (Retail) — IFSCA/FME/2023/0142"
+    ],
+    "characteristics": {
+      "category": "Registered FME (Retail)",
+      "aum": 250,
+      "aumCurrency": "USD million",
+      "jurisdiction": "GIFT IFSC, Gandhinagar",
+      "headcount": 48
+    },
+    "complianceOfficer": {
+      "name": "Priya Raghavan",
+      "email": "priya.raghavan@acmefund.example"
+    }
+  },
+  {
+    "id": "northgate-fintech",
+    "name": "Northgate FinTech Solutions IFSC Ltd.",
+    "entityType": "FinTech Entity",
+    "activities": [
+      "Cross-border payments technology",
+      "RegTech / compliance automation"
+    ],
+    "licenses": [
+      "IFSCA FinTech Authorisation — IFSCA/FE/2024/0088"
+    ],
+    "characteristics": {
+      "category": "Authorised FinTech Entity",
+      "jurisdiction": "GIFT IFSC, Gandhinagar",
+      "headcount": 22
+    },
+    "complianceOfficer": {
+      "name": "Meera Iyer",
+      "email": "meera.iyer@northgate.example"
+    }
+  }
+]

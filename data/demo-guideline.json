@@ -1,0 +1,21 @@
+{
+  "_comment": "The guideline used in the 90-second demo. It is NOT active — it only pre-fills the \"Add or update a guideline\" form when you click \"Load demo circular\". Submitting the form is what makes it real.",
+  "id": "R-025",
+  "title": "Principal Officer and Fund Managers — mandatory AIF Managers certification",
+  "citationRef": "IFSCA Circular F.No. IFSCA-FMD/2026/07 dated 12 August 2026 — Certification requirements for key personnel of Fund Management Entities",
+  "citationText": "With effect from 1 October 2026, every Fund Management Entity shall ensure that its Principal Officer, and every Fund Manager responsible for investment decisions in respect of a scheme, holds a valid NISM-Series-XIX-C: Alternative Investment Fund Managers Certification. Entities shall review the certification status of all such personnel and confirm compliance to the Authority within thirty days of the date of this circular.",
+  "citationSource": "Illustrative circular authored for this prototype demo. It is not a real IFSCA circular — it stands in for the guideline that IFSCA would file through this form.",
+  "appliesToEntityFilter": {
+    "entityType": "Fund Management Entity"
+  },
+  "targetRole": [
+    "Principal Officer",
+    "Fund Manager"
+  ],
+  "requirement": {
+    "type": "HAS_CERTIFICATION",
+    "value": "NISM-Series-XIX-C: Alternative Investment Fund Managers Certification"
+  },
+  "version": 1,
+  "effectiveDate": "2026-10-01"
+}

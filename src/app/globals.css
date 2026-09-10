@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #475569;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  color: #0f172a;
+}
+
+@layer components {
+  /* A white card with a hairline border and a soft shadow. Used everywhere. */
+  .card {
+    @apply rounded-card border border-line bg-surface shadow-card;
+  }
+  .card-head {
+    @apply flex flex-wrap items-center justify-between gap-3 border-b border-line px-5 py-4;
+  }
+  .card-title {
+    @apply text-[15px] font-semibold text-ink;
+  }
+  .card-sub {
+    @apply text-[13px] text-ink-muted;
+  }
+  .card-body {
+    @apply px-5 py-4;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded border px-3.5 py-2 text-[13px]
+           font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn border-brand bg-brand text-white hover:bg-brand-soft;
+  }
+  .btn-accent {
+    @apply btn border-accent bg-accent text-white hover:bg-accent-strong;
+  }
+  .btn-secondary {
+    @apply btn border-line bg-surface text-ink hover:bg-canvas;
+  }
+
+  .field-label {
+    @apply mb-1.5 block text-[13px] font-medium text-ink;
+  }
+  .field {
+    @apply w-full rounded border border-line bg-surface px-3 py-2 text-[13px] text-ink
+           placeholder:text-ink-muted focus:border-accent focus:outline-none
+           focus:ring-2 focus:ring-accent/15;
+  }
+  .field-hint {
+    @apply mt-1 text-[12px] leading-relaxed text-ink-muted;
+  }
+
+  .th {
+    @apply px-4 py-2.5 text-left text-[11px] font-semibold uppercase tracking-wider text-ink-muted;
+  }
+  .td {
+    @apply px-4 py-3 align-top text-[13px] text-ink-body;
+  }
+
+  /* Citation text: always shown in a quoted, monospaced-feeling block so it
+     reads as "this is the source", not as our own words. */
+  .citation {
+    @apply rounded border-l-[3px] border-accent bg-accent-soft px-4 py-3 text-[13px]
+           leading-relaxed text-ink-body;
+  }
+}

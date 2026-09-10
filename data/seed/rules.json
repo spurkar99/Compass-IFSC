@@ -1,0 +1,471 @@
+[
+  {
+    "id": "R-001",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Principal Officer — minimum 5 years' relevant experience",
+    "citationRef": "IFSCA (Fund Management) Regulations, 2022 — Regulation 6 (Eligibility criteria), read with Schedule I",
+    "citationText": "The Principal Officer of a Fund Management Entity shall have a minimum experience of five years in related activities in the securities market or financial products, including in fund management, portfolio management, broker-dealer activity, investment advisory, wealth management or research analysis.",
+    "citationSource": "Hand-entered from the IFSCA (Fund Management) Regulations, 2022. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {
+      "entityType": "Fund Management Entity"
+    },
+    "targetRole": "Principal Officer",
+    "requirement": {
+      "type": "MIN_EXPERIENCE_YEARS",
+      "value": 5
+    },
+    "effectiveDate": "2022-04-19"
+  },
+  {
+    "id": "R-002",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Principal Officer — professional qualification requirement",
+    "citationRef": "IFSCA (Fund Management) Regulations, 2022 — Regulation 6 (Eligibility criteria)",
+    "citationText": "The Principal Officer shall hold a professional qualification, or a post-graduate degree or post-graduate diploma of a minimum duration of two years, in finance, law, accountancy, business management, commerce, economics, capital markets, banking, insurance or actuarial science from a university or institution recognised by the Government of India or from a recognised foreign university, or shall hold a CFA charter from the CFA Institute.",
+    "citationSource": "Hand-entered from the IFSCA (Fund Management) Regulations, 2022. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {
+      "entityType": "Fund Management Entity"
+    },
+    "targetRole": "Principal Officer",
+    "requirement": {
+      "type": "HAS_QUALIFICATION",
+      "value": [
+        "MBA (Finance)",
+        "PGDM (Finance)",
+        "CFA Charter",
+        "Chartered Accountant",
+        "CS (Company Secretary)",
+        "LL.B.",
+        "LL.M.",
+        "M.Com",
+        "M.Sc. (Economics)",
+        "MBA"
+      ]
+    },
+    "effectiveDate": "2022-04-19"
+  },
+  {
+    "id": "R-003",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Compliance Officer — minimum 3 years' experience (FMEs above USD 100m AUM)",
+    "citationRef": "IFSCA (Fund Management) Regulations, 2022 — Regulation 12 (Compliance and risk management)",
+    "citationText": "A Fund Management Entity managing assets in excess of USD 100 million shall designate a whole-time Compliance Officer, being a person having not less than three years of experience in compliance, legal or regulatory functions in the financial services sector, who shall be responsible for monitoring compliance with the applicable regulations.",
+    "citationSource": "Hand-entered from the IFSCA (Fund Management) Regulations, 2022. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {
+      "entityType": "Fund Management Entity",
+      "minAum": 100
+    },
+    "targetRole": "Compliance Officer",
+    "requirement": {
+      "type": "MIN_EXPERIENCE_YEARS",
+      "value": 3
+    },
+    "effectiveDate": "2022-04-19"
+  },
+  {
+    "id": "R-004",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "All staff — AML/CFT refresher training every 12 months",
+    "citationRef": "IFSCA (Anti Money Laundering, Counter-Terrorist Financing and Know Your Customer) Guidelines, 2022 — Clause on employee training programmes",
+    "citationText": "A Regulated Entity shall put in place an ongoing employee training programme so that its staff are adequately trained in anti-money laundering, counter-terrorist financing and know-your-customer obligations. The Regulated Entity shall maintain records of such training and shall ensure that every employee undergoes a refresher programme at least once every twelve months.",
+    "citationSource": "Hand-entered from the IFSCA (Anti Money Laundering, Counter-Terrorist Financing and Know Your Customer) Guidelines, 2022. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {},
+    "targetRole": "*",
+    "requirement": {
+      "type": "CERTIFICATION_RENEWED_WITHIN_MONTHS",
+      "value": 12,
+      "certificationName": "AML/CFT Training Certificate"
+    },
+    "effectiveDate": "2022-10-01"
+  },
+  {
+    "id": "R-005",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Principal Officer — certification must be valid and unexpired",
+    "citationRef": "IFSCA (Fund Management) Regulations, 2022 — Regulation 6, read with IFSCA certification requirements for key personnel",
+    "citationText": "The Principal Officer shall at all times hold a valid and subsisting certification as specified by the Authority for the activity undertaken by the Fund Management Entity. A certification that has lapsed shall be renewed before its expiry, and the entity shall not permit a person holding a lapsed certification to discharge the functions of Principal Officer.",
+    "citationSource": "Hand-entered from the IFSCA (Fund Management) Regulations, 2022. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {
+      "entityType": "Fund Management Entity"
+    },
+    "targetRole": "Principal Officer",
+    "requirement": {
+      "type": "CERTIFICATION_NOT_EXPIRED",
+      "value": "NISM-Series-XIX-C: Alternative Investment Fund Managers Certification"
+    },
+    "effectiveDate": "2022-04-19"
+  },
+  {
+    "id": "R-006",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Fund Manager — minimum 3 years' investment experience",
+    "citationRef": "IFSCA (Fund Management) Regulations, 2022 — Regulation 6, read with Schedule I (key managerial personnel)",
+    "citationText": "Every person designated as a Fund Manager, being responsible for investment decisions in respect of a scheme, shall have a minimum of three years of experience in fund management, portfolio management or investment research.",
+    "citationSource": "Hand-entered from the IFSCA (Fund Management) Regulations, 2022. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {
+      "entityType": "Fund Management Entity"
+    },
+    "targetRole": "Fund Manager",
+    "requirement": {
+      "type": "MIN_EXPERIENCE_YEARS",
+      "value": 3
+    },
+    "effectiveDate": "2022-04-19"
+  },
+  {
+    "id": "R-007",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Risk Manager — minimum 5 years' risk experience",
+    "citationRef": "IFSCA (Fund Management) Regulations, 2022 — Regulation 12 (Compliance and risk management)",
+    "citationText": "A Fund Management Entity shall put in place a risk management function headed by a person having not less than five years of experience in risk management in the financial services sector, functionally independent of the investment function.",
+    "citationSource": "Hand-entered from the IFSCA (Fund Management) Regulations, 2022. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {
+      "entityType": "Fund Management Entity"
+    },
+    "targetRole": "Risk Manager",
+    "requirement": {
+      "type": "MIN_EXPERIENCE_YEARS",
+      "value": 5
+    },
+    "effectiveDate": "2022-04-19"
+  },
+  {
+    "id": "R-008",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Company Secretary — must be a qualified Company Secretary",
+    "citationRef": "IFSCA (Fund Management) Regulations, 2022 — Regulation 12, read with the Companies Act requirements applicable in the IFSC",
+    "citationText": "Where a Fund Management Entity is required to appoint a Company Secretary, such person shall be a member of the Institute of Company Secretaries of India or hold an equivalent recognised qualification.",
+    "citationSource": "Hand-entered from the IFSCA (Fund Management) Regulations, 2022. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {
+      "entityType": "Fund Management Entity"
+    },
+    "targetRole": "Company Secretary",
+    "requirement": {
+      "type": "HAS_QUALIFICATION",
+      "value": [
+        "CS (Company Secretary)"
+      ]
+    },
+    "effectiveDate": "2022-04-19"
+  },
+  {
+    "id": "R-009",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Internal Auditor — professional audit qualification",
+    "citationRef": "IFSCA (Fund Management) Regulations, 2022 — Regulation 12 (Internal audit)",
+    "citationText": "The internal audit of a Fund Management Entity shall be conducted by a person holding a professional qualification in accountancy or internal auditing, who is independent of the functions being audited.",
+    "citationSource": "Hand-entered from the IFSCA (Fund Management) Regulations, 2022. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {
+      "entityType": "Fund Management Entity"
+    },
+    "targetRole": "Internal Auditor",
+    "requirement": {
+      "type": "HAS_QUALIFICATION",
+      "value": [
+        "Chartered Accountant",
+        "CIA (Certified Internal Auditor)",
+        "CPA"
+      ]
+    },
+    "effectiveDate": "2022-04-19"
+  },
+  {
+    "id": "R-010",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Compliance Officer — valid securities compliance certification",
+    "citationRef": "IFSCA (Capital Market Intermediaries) Regulations, 2021 — Chapter on certification of associated persons",
+    "citationText": "A person discharging the functions of Compliance Officer shall hold a valid certification in securities intermediaries compliance as specified by the Authority, and shall ensure it remains unexpired throughout the period of engagement.",
+    "citationSource": "Hand-entered from the IFSCA (Capital Market Intermediaries) Regulations, 2021. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {
+      "entityType": "Fund Management Entity"
+    },
+    "targetRole": "Compliance Officer",
+    "requirement": {
+      "type": "CERTIFICATION_NOT_EXPIRED",
+      "value": "NISM-Series-III-A: Securities Intermediaries Compliance Certification"
+    },
+    "effectiveDate": "2023-01-01"
+  },
+  {
+    "id": "R-011",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Fund Accountant — professional accounting qualification",
+    "citationRef": "IFSCA (Fund Management) Regulations, 2022 — Regulation 12, read with Schedule I (fund administration)",
+    "citationText": "Valuation and fund accounting functions shall be discharged by persons holding a professional accounting qualification, and the entity shall maintain records evidencing such qualification.",
+    "citationSource": "Hand-entered from the IFSCA (Fund Management) Regulations, 2022. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {
+      "entityType": "Fund Management Entity"
+    },
+    "targetRole": "Fund Accountant",
+    "requirement": {
+      "type": "HAS_QUALIFICATION",
+      "value": [
+        "Chartered Accountant",
+        "CPA",
+        "CMA",
+        "ACCA"
+      ]
+    },
+    "effectiveDate": "2022-04-19"
+  },
+  {
+    "id": "R-012",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Dealer — valid equity derivatives certification",
+    "citationRef": "IFSCA (Capital Market Intermediaries) Regulations, 2021 — Chapter on certification of associated persons",
+    "citationText": "Any associated person engaged in dealing or placing orders in derivative contracts shall hold a valid and unexpired certification for equity derivatives as specified by the Authority.",
+    "citationSource": "Hand-entered from the IFSCA (Capital Market Intermediaries) Regulations, 2021. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {
+      "entityType": "Fund Management Entity"
+    },
+    "targetRole": "Dealer",
+    "requirement": {
+      "type": "CERTIFICATION_NOT_EXPIRED",
+      "value": "NISM-Series-VIII: Equity Derivatives Certification"
+    },
+    "effectiveDate": "2023-01-01"
+  },
+  {
+    "id": "R-013",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Investor Relations Manager — valid distribution certification",
+    "citationRef": "IFSCA (Capital Market Intermediaries) Regulations, 2021 — Chapter on distribution of financial products",
+    "citationText": "A person engaged in the marketing or distribution of units of a scheme to investors shall hold a valid and unexpired distributors certification as specified by the Authority.",
+    "citationSource": "Hand-entered from the IFSCA (Capital Market Intermediaries) Regulations, 2021. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {
+      "entityType": "Fund Management Entity"
+    },
+    "targetRole": "Investor Relations Manager",
+    "requirement": {
+      "type": "CERTIFICATION_NOT_EXPIRED",
+      "value": "NISM-Series-V-A: Mutual Fund Distributors Certification"
+    },
+    "effectiveDate": "2023-01-01"
+  },
+  {
+    "id": "R-014",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Legal Counsel — recognised law qualification",
+    "citationRef": "IFSCA (Fund Management) Regulations, 2022 — Regulation 12 (Governance)",
+    "citationText": "A person appointed to advise the entity on the legal and regulatory obligations applicable to it shall hold a recognised qualification in law.",
+    "citationSource": "Hand-entered from the IFSCA (Fund Management) Regulations, 2022. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {},
+    "targetRole": "Legal Counsel",
+    "requirement": {
+      "type": "HAS_QUALIFICATION",
+      "value": [
+        "LL.B.",
+        "LL.M.",
+        "CS (Company Secretary)"
+      ]
+    },
+    "effectiveDate": "2022-04-19"
+  },
+  {
+    "id": "R-015",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Finance Controller — professional accounting qualification",
+    "citationRef": "IFSCA (Fund Management) Regulations, 2022 — Regulation 12 (Books of account and records)",
+    "citationText": "The person responsible for the books of account and regulatory financial reporting of the entity shall hold a professional accounting qualification.",
+    "citationSource": "Hand-entered from the IFSCA (Fund Management) Regulations, 2022. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {},
+    "targetRole": "Finance Controller",
+    "requirement": {
+      "type": "HAS_QUALIFICATION",
+      "value": [
+        "Chartered Accountant",
+        "CPA",
+        "CMA",
+        "ACCA"
+      ]
+    },
+    "effectiveDate": "2022-04-19"
+  },
+  {
+    "id": "R-016",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "All staff — cyber security awareness training every 12 months",
+    "citationRef": "IFSCA Circular on Cyber Security and Cyber Resilience Framework — Clause on awareness and training",
+    "citationText": "A regulated entity shall conduct periodic cyber security awareness programmes for all employees, and shall ensure that every employee undergoes such a programme at least once every twelve months. Records of attendance shall be retained and made available to the Authority on request.",
+    "citationSource": "Hand-entered from the IFSCA Circular on Cyber Security and Cyber Resilience Framework. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {},
+    "targetRole": "*",
+    "requirement": {
+      "type": "CERTIFICATION_RENEWED_WITHIN_MONTHS",
+      "value": 12,
+      "certificationName": "Cyber Security Awareness Training"
+    },
+    "effectiveDate": "2024-04-01"
+  },
+  {
+    "id": "R-017",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Money Laundering Reporting Officer — valid AML specialist certification",
+    "citationRef": "IFSCA (Anti Money Laundering, Counter-Terrorist Financing and Know Your Customer) Guidelines, 2022 — Clause on designation of a Principal Officer for AML purposes",
+    "citationText": "A Regulated Entity shall designate a Money Laundering Reporting Officer at a senior level, who shall hold a valid professional certification in anti-money laundering and shall be responsible for reporting suspicious transactions to the Financial Intelligence Unit.",
+    "citationSource": "Hand-entered from the IFSCA (Anti Money Laundering, Counter-Terrorist Financing and Know Your Customer) Guidelines, 2022. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {},
+    "targetRole": "Money Laundering Reporting Officer",
+    "requirement": {
+      "type": "CERTIFICATION_NOT_EXPIRED",
+      "value": "CAMS: Certified Anti-Money Laundering Specialist"
+    },
+    "effectiveDate": "2022-10-01"
+  },
+  {
+    "id": "R-018",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Money Laundering Reporting Officer — minimum 3 years' experience",
+    "citationRef": "IFSCA (Anti Money Laundering, Counter-Terrorist Financing and Know Your Customer) Guidelines, 2022 — Clause on designation of a Principal Officer for AML purposes",
+    "citationText": "The Money Laundering Reporting Officer shall be a person of sufficient seniority and experience, having not less than three years of experience in compliance, audit, legal or risk functions in the financial services sector.",
+    "citationSource": "Hand-entered from the IFSCA (Anti Money Laundering, Counter-Terrorist Financing and Know Your Customer) Guidelines, 2022. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {},
+    "targetRole": "Money Laundering Reporting Officer",
+    "requirement": {
+      "type": "MIN_EXPERIENCE_YEARS",
+      "value": 3
+    },
+    "effectiveDate": "2022-10-01"
+  },
+  {
+    "id": "R-019",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "IT Security Officer — recognised information security certification",
+    "citationRef": "IFSCA Circular on Cyber Security and Cyber Resilience Framework — Clause on the Chief Information Security Officer",
+    "citationText": "A regulated entity shall designate a senior official responsible for information and cyber security, who shall hold a recognised professional certification in information security.",
+    "citationSource": "Hand-entered from the IFSCA Circular on Cyber Security and Cyber Resilience Framework. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {},
+    "targetRole": "IT Security Officer",
+    "requirement": {
+      "type": "HAS_CERTIFICATION",
+      "value": "CISM: Certified Information Security Manager"
+    },
+    "effectiveDate": "2024-04-01"
+  },
+  {
+    "id": "R-020",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Chief Technology Officer — minimum 8 years' experience",
+    "citationRef": "IFSCA Circular on Cyber Security and Cyber Resilience Framework — Clause on governance of technology risk",
+    "citationText": "The senior official responsible for the technology function of a regulated entity shall have not less than eight years of experience in technology or information systems, of which a reasonable part shall be in the financial services sector.",
+    "citationSource": "Hand-entered from the IFSCA Circular on Cyber Security and Cyber Resilience Framework. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {},
+    "targetRole": "Chief Technology Officer",
+    "requirement": {
+      "type": "MIN_EXPERIENCE_YEARS",
+      "value": 8
+    },
+    "effectiveDate": "2024-04-01"
+  },
+  {
+    "id": "R-021",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Client onboarding staff — KYC certification renewed every 24 months",
+    "citationRef": "IFSCA (Anti Money Laundering, Counter-Terrorist Financing and Know Your Customer) Guidelines, 2022 — Clause on customer due diligence",
+    "citationText": "Personnel engaged in customer identification and customer due diligence shall be trained in the entity’s KYC procedures, and such training shall be refreshed at least once every twenty-four months.",
+    "citationSource": "Hand-entered from the IFSCA (Anti Money Laundering, Counter-Terrorist Financing and Know Your Customer) Guidelines, 2022. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {},
+    "targetRole": "Client Onboarding Executive",
+    "requirement": {
+      "type": "CERTIFICATION_RENEWED_WITHIN_MONTHS",
+      "value": 24,
+      "certificationName": "KYC and Customer Due Diligence Certification"
+    },
+    "effectiveDate": "2022-10-01"
+  },
+  {
+    "id": "R-022",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Data Protection Officer — recognised data protection certification",
+    "citationRef": "IFSCA Circular on data protection and privacy obligations of regulated entities",
+    "citationText": "A regulated entity processing personal data of clients shall designate a Data Protection Officer holding a recognised certification in data protection, responsible for the entity’s compliance with applicable data protection obligations.",
+    "citationSource": "Hand-entered and indicative. Verify the instrument and clause against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {},
+    "targetRole": "Data Protection Officer",
+    "requirement": {
+      "type": "HAS_CERTIFICATION",
+      "value": "Certified Data Protection Officer"
+    },
+    "effectiveDate": "2025-01-01"
+  },
+  {
+    "id": "R-023",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "Operations Manager — minimum 3 years' operations experience",
+    "citationRef": "IFSCA (Fund Management) Regulations, 2022 — Regulation 12 (Operational controls)",
+    "citationText": "The person responsible for the day-to-day operational controls of a regulated entity shall have not less than three years of relevant operational experience in the financial services sector.",
+    "citationSource": "Hand-entered from the IFSCA (Fund Management) Regulations, 2022. Clause references are indicative — verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {},
+    "targetRole": "Operations Manager",
+    "requirement": {
+      "type": "MIN_EXPERIENCE_YEARS",
+      "value": 3
+    },
+    "effectiveDate": "2022-04-19"
+  },
+  {
+    "id": "R-024",
+    "version": 1,
+    "status": "ACTIVE",
+    "source": "SEED",
+    "title": "FinTech entities — Compliance Officer minimum 3 years' experience",
+    "citationRef": "IFSCA (FinTech Entity) Framework — Clause on governance of authorised FinTech entities",
+    "citationText": "An Authorised FinTech Entity shall designate a compliance officer having not less than three years of relevant experience, who shall be responsible for the entity’s adherence to the conditions of its authorisation.",
+    "citationSource": "Hand-entered from the IFSCA FinTech framework and indicative. Verify against the IFSCA handbook before operational reliance.",
+    "appliesToEntityFilter": {
+      "category": "Authorised FinTech Entity"
+    },
+    "targetRole": "Compliance Officer",
+    "requirement": {
+      "type": "MIN_EXPERIENCE_YEARS",
+      "value": 3
+    },
+    "effectiveDate": "2024-06-01"
+  }
+]

@@ -1,0 +1,30 @@
+# ---------------------------------------------------------------------------
+# AWS Amplify Hosting build settings for Compass IFSC.
+#
+# Amplify reads this file from the repository, so it must never contain a
+# secret. It does not need to: the deployed app gets its AWS permissions from
+# the SSR compute role, and the only configuration it needs (the bucket name,
+# the region, the model) is set as an environment variable in the Amplify
+# console.
+# ---------------------------------------------------------------------------
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        # --include=dev is required: Tailwind, TypeScript and the Next compiler
+        # are devDependencies and the production build needs all three.
+        - npm ci --include=dev
+    build:
+      commands:
+        # `prebuild` runs scripts/bundle-text.mjs automatically, which compiles
+        # the sample circulars and the CSV template into the build.
+        - npm run build
+  artifacts:
+    baseDirectory: .next
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - .next/cache/**/*
+      - node_modules/**/*
